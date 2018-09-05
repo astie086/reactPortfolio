@@ -19,6 +19,35 @@ class Landing extends Component {
               <hr />
 
               <p> Painter | Tattoo Artist | Glass Etcher</p>
+
+              <div className="social-links">
+                {/* Facebook */}
+                <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fab fa-facebook-f" aria-hidden="true" />
+                </a>
+
+                {/* Instagram */}
+                <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fab fa-instagram" aria-hidden="true" />
+                </a>
+
+                {/* LinkedIN */}
+                <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fab fa-linkedin-in" aria-hidden="true" />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
