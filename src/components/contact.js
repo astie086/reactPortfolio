@@ -28,17 +28,37 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me!</h2>
             <hr />
-            <List>
-              <ListItem>
-                <ListItemContent icon="person">Bryan Cranston</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent icon="person">Aaron Paul</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-              </ListItem>
-            </List>
+
+            <div className="contact-list">
+              <List>
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "35px", fontFamily: "Anton" }}
+                  >
+                    <i className="fas fa-phone" aria-hidden="true" />
+                    (123) 456-7890
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "35px", fontFamily: "Anton" }}
+                  >
+                    <i className="far fa-envelope-open" aria-hidden="true" />
+                    kendraHerrera@gmail.com
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "35px", fontFamily: "Anton" }}
+                  >
+                    <i className="fab fa-skype" aria-hidden="true" />
+                    KHerrera90
+                  </ListItemContent>
+                </ListItem>
+              </List>
+            </div>
           </Cell>
         </Grid>
       </div>
