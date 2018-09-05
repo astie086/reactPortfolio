@@ -93,6 +93,8 @@
 .contact-grid p {
   font-family: "Oxygen", sans-serif;
   font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .contact-grid hr {
   border-top: 5px dotted black;
@@ -102,4 +104,6 @@
 .contact-list i {
   font-size: 40px;
   padding-right: 60px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
